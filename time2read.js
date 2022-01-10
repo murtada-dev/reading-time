@@ -13,7 +13,6 @@ class TimeToRead {
     const slow = Math.ceil(words / 125);
     const average = Math.ceil(words / 300);
     const fast = Math.ceil(words / 450);
-    console.log(words);
     // word > 1 && < 250
     if (words > 0 && words <= 250 && speed === "slow") {
       return `${slow} min to read`;
